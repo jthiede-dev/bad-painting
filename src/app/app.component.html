@@ -1,0 +1,7 @@
+<app-game-control (ticker)="onTick($event)" (reset)="reset()"></app-game-control>
+<section>
+  <div (click)="removeTick(tick)" *ngFor="let tick of ticks">
+    <app-odd *ngIf="tick % 2 === 1" [number]="tick"></app-odd>
+    <app-even *ngIf="tick % 2 === 0" [number]="tick"></app-even>
+  </div>
+</section>
