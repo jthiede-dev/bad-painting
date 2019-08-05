@@ -2,7 +2,7 @@
 
 This is a bad painting program which started by following an Angular Tutorial and grew into this weird thing.
 
-##Installation
+## Installation
 ```
 npm install
 ```
